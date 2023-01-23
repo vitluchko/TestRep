@@ -1,0 +1,6 @@
+[requires]
+imgui/cci.20220621+1.88.docking
+glfw/3.3.8
+
+[generators]
+cmake

@@ -1,0 +1,42 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "glfw:shared=False\nglfw:vulkan_static=False\nimgui:shared=False",
+    "requires": [
+     "1",
+     "2"
+    ],
+    "path": "..\\conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "imgui/cci.20220621+1.88.docking",
+    "options": "shared=False",
+    "package_id": "5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b",
+    "prev": "0",
+    "context": "host"
+   },
+   "2": {
+    "ref": "glfw/3.3.8",
+    "options": "shared=False\nvulkan_static=False",
+    "package_id": "d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61",
+    "prev": "0",
+    "requires": [
+     "3"
+    ],
+    "context": "host"
+   },
+   "3": {
+    "ref": "opengl/system",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=17\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}
