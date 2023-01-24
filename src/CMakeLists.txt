@@ -7,7 +7,9 @@ set(SOURCE_FILES
 	../bindings/imgui_impl_glfw.cpp
 	../bindings/imgui_impl_opengl3.cpp
 	../bindings/imgui_impl_glfw.h
-	../bindings/imgui_impl_opengl3.h)
+	../bindings/imgui_impl_opengl3.h
+	../bindings/imgui_impl_opengl3_loader.h)
+
 
 message("********** CONAN_LIBS: " "${CONAN_LIBS}")
 
