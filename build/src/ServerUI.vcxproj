@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CE158B45-7FEA-3189-AFC7-2E006D9EA5EC}</ProjectGuid>
+    <ProjectGuid>{3E127F64-EB66-3108-9C91-B1B7298A517B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ServerUI</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Visual Projects\C++\ServerUI\build\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\softserve\lv-731\ImguiTestProject\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ServerUI.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ServerUI</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Visual Projects\C++\ServerUI\build\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\softserve\lv-731\ImguiTestProject\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ServerUI.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ServerUI</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Visual Projects\C++\ServerUI\build\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Study\softserve\lv-731\ImguiTestProject\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ServerUI.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ServerUI</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Visual Projects\C++\ServerUI\build\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Study\softserve\lv-731\ImguiTestProject\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ServerUI.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ServerUI</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,14 +86,12 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -std=c++17</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -105,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,13 +114,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>imgui.lib;glfw3.lib;imm32.lib;gdi32.lib;opengl32.lib;imgui_impl_opengl3.lib;imgui_impl_glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib;C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib/$(Configuration);C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib;C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Visual Projects/C++/ServerUI/build/lib/ServerUI.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Visual Projects/C++/ServerUI/build/bin/ServerUI.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Study/softserve/lv-731/ImguiTestProject/bin/Debug/ServerUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Study/softserve/lv-731/ImguiTestProject/bin/Debug/ServerUI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -131,29 +129,27 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -std=c++17</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;C:\Users\user\.conan\data\imgui\1.74\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\user\.conan\data\glew\2.2.0\_\_\package\876ec6183b0dda30dcb41826d66ad276a23d1ade\include;C:\Users\user\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;C:\Users\user\.conan\data\imgui\1.74\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\user\.conan\data\glew\2.2.0\_\_\package\876ec6183b0dda30dcb41826d66ad276a23d1ade\include;C:\Users\user\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;C:\Users\user\.conan\data\imgui\1.74\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\user\.conan\data\glew\2.2.0\_\_\package\876ec6183b0dda30dcb41826d66ad276a23d1ade\include;C:\Users\user\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,13 +157,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>imgui.lib;glfw3.lib;imm32.lib;gdi32.lib;opengl32.lib;imgui_impl_opengl3.lib;imgui_impl_glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib;C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib/$(Configuration);C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib;C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Users\user\.conan\data\imgui\1.74\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\lib\imgui.lib;C:\Users\user\.conan\data\glew\2.2.0\_\_\package\876ec6183b0dda30dcb41826d66ad276a23d1ade\lib\libglew32.lib;Glu32.lib;C:\Users\user\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\lib\glfw3.lib;opengl32.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Visual Projects/C++/ServerUI/build/lib/ServerUI.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Visual Projects/C++/ServerUI/build/bin/ServerUI.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Study/softserve/lv-731/ImguiTestProject/bin/Release/ServerUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Study/softserve/lv-731/ImguiTestProject/bin/Release/ServerUI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -176,12 +172,10 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -std=c++17</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -195,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,13 +200,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>imgui.lib;glfw3.lib;imm32.lib;gdi32.lib;opengl32.lib;imgui_impl_opengl3.lib;imgui_impl_glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib;C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib/$(Configuration);C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib;C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Visual Projects/C++/ServerUI/build/lib/ServerUI.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Visual Projects/C++/ServerUI/build/bin/ServerUI.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Study/softserve/lv-731/ImguiTestProject/bin/MinSizeRel/ServerUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Study/softserve/lv-731/ImguiTestProject/bin/MinSizeRel/ServerUI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -221,13 +215,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -std=c++17</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -239,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Visual Projects\C++\ServerUI\build\src;D:\Visual Projects\C++\ServerUI\src;C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\include;C:\Users\Nazar\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Study\softserve\lv-731\ImguiTestProject\build\src;D:\Study\softserve\lv-731\ImguiTestProject\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,13 +242,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>imgui.lib;glfw3.lib;imm32.lib;gdi32.lib;opengl32.lib;imgui_impl_opengl3.lib;imgui_impl_glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib;C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib/$(Configuration);C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib;C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/Visual Projects/C++/ServerUI/build/lib/ServerUI.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/Visual Projects/C++/ServerUI/build/bin/ServerUI.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Study/softserve/lv-731/ImguiTestProject/bin/RelWithDebInfo/ServerUI.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Study/softserve/lv-731/ImguiTestProject/bin/RelWithDebInfo/ServerUI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -264,11 +256,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Visual Projects\C++\ServerUI\src\CMakeLists.txt">
+    <CustomBuild Include="D:\Study\softserve\lv-731\ImguiTestProject\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Visual Projects/C++/ServerUI/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Study/softserve/lv-731/ImguiTestProject/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Visual Projects/C++/ServerUI" "-BD:/Visual Projects/C++/ServerUI/build" --check-stamp-file "D:/Visual Projects/C++/ServerUI/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Study/softserve/lv-731/ImguiTestProject -BD:/Study/softserve/lv-731/ImguiTestProject/build --check-stamp-file D:/Study/softserve/lv-731/ImguiTestProject/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -276,12 +268,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Visual Projects\C++\ServerUI\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Users\user\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\lib\cmake\conan-official-glfw-targets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glew-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glew-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glewTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glewTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3Target-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3Targets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glu-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glu-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\gluTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\gluTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imgui-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imgui-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imguiTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imguiTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_system-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_system-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_systemTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_systemTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Study\softserve\lv-731\ImguiTestProject\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Visual Projects/C++/ServerUI/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Study/softserve/lv-731/ImguiTestProject/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Visual Projects/C++/ServerUI" "-BD:/Visual Projects/C++/ServerUI/build" --check-stamp-file "D:/Visual Projects/C++/ServerUI/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Study/softserve/lv-731/ImguiTestProject -BD:/Study/softserve/lv-731/ImguiTestProject/build --check-stamp-file D:/Study/softserve/lv-731/ImguiTestProject/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,12 +281,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Visual Projects\C++\ServerUI\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Users\user\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\lib\cmake\conan-official-glfw-targets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glew-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glew-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glewTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glewTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3Target-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3Targets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glu-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glu-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\gluTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\gluTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imgui-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imgui-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imguiTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imguiTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_system-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_system-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_systemTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_systemTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Study\softserve\lv-731\ImguiTestProject\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Visual Projects/C++/ServerUI/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Study/softserve/lv-731/ImguiTestProject/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Visual Projects/C++/ServerUI" "-BD:/Visual Projects/C++/ServerUI/build" --check-stamp-file "D:/Visual Projects/C++/ServerUI/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Study/softserve/lv-731/ImguiTestProject -BD:/Study/softserve/lv-731/ImguiTestProject/build --check-stamp-file D:/Study/softserve/lv-731/ImguiTestProject/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,12 +294,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Visual Projects\C++\ServerUI\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Users\user\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\lib\cmake\conan-official-glfw-targets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glew-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glew-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glewTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glewTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3Target-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3Targets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glu-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glu-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\gluTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\gluTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imgui-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imgui-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imguiTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imguiTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_system-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_system-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_systemTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_systemTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Study\softserve\lv-731\ImguiTestProject\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Visual Projects/C++/ServerUI/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Study/softserve/lv-731/ImguiTestProject/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Visual Projects/C++/ServerUI" "-BD:/Visual Projects/C++/ServerUI/build" --check-stamp-file "D:/Visual Projects/C++/ServerUI/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Study/softserve/lv-731/ImguiTestProject -BD:/Study/softserve/lv-731/ImguiTestProject/build --check-stamp-file D:/Study/softserve/lv-731/ImguiTestProject/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,18 +307,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Visual Projects\C++\ServerUI\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Users\user\.conan\data\glfw\3.3.8\_\_\package\d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61\lib\cmake\conan-official-glfw-targets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glew-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glew-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glewTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glewTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3Target-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glfw3Targets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glu-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\glu-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\gluTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\gluTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imgui-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imgui-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imguiTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\imguiTargets.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_system-config-version.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_system-config.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_systemTarget-release.cmake;D:\Study\softserve\lv-731\ImguiTestProject\build\opengl_systemTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Study\softserve\lv-731\ImguiTestProject\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Visual Projects\C++\ServerUI\src\ServerUI.cpp" />
-    <ClInclude Include="D:\Visual Projects\C++\ServerUI\src\ServerUI.h" />
+    <ClCompile Include="D:\Study\softserve\lv-731\ImguiTestProject\src\ServerUI.cpp" />
+    <ClInclude Include="D:\Study\softserve\lv-731\ImguiTestProject\src\ServerUI.h" />
+    <ClCompile Include="D:\Study\softserve\lv-731\ImguiTestProject\bindings\imgui_impl_glfw.cpp" />
+    <ClCompile Include="D:\Study\softserve\lv-731\ImguiTestProject\bindings\imgui_impl_opengl3.cpp" />
+    <ClInclude Include="D:\Study\softserve\lv-731\ImguiTestProject\bindings\imgui_impl_glfw.h" />
+    <ClInclude Include="D:\Study\softserve\lv-731\ImguiTestProject\bindings\imgui_impl_opengl3.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Visual Projects\C++\ServerUI\build\ZERO_CHECK.vcxproj">
-      <Project>{473550FC-70E4-3872-9FED-1BAF9B893D4D}</Project>
+    <ProjectReference Include="D:\Study\softserve\lv-731\ImguiTestProject\build\ZERO_CHECK.vcxproj">
+      <Project>{5F730B3C-4423-369D-86C9-7030F52EF85A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

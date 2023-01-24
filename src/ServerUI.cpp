@@ -59,5 +59,6 @@ int main()
 {
     myUI ui;
     ui.Run();
+	system("pause");
     return 0;
 }

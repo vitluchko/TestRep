@@ -1,4 +1,4 @@
-# Install script for directory: D:/Visual Projects/C++/ServerUI/src
+# Install script for directory: D:/Study/softserve/lv-731/ImguiTestProject/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

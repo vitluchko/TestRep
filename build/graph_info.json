@@ -1,6 +1,10 @@
 {
  "options": [
   [
+   "glew:shared",
+   "False"
+  ],
+  [
    "glfw:shared",
    "False"
   ],

@@ -2,16 +2,17 @@
  "graph_lock": {
   "nodes": {
    "0": {
-    "options": "glfw:shared=False\nglfw:vulkan_static=False\nimgui:shared=False",
+    "options": "glew:shared=False\nglfw:shared=False\nglfw:vulkan_static=False\nimgui:shared=False",
     "requires": [
      "1",
-     "2"
+     "2",
+     "4"
     ],
     "path": "..\\conanfile.txt",
     "context": "host"
    },
    "1": {
-    "ref": "imgui/cci.20220621+1.88.docking",
+    "ref": "imgui/1.74",
     "options": "shared=False",
     "package_id": "5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b",
     "prev": "0",
@@ -32,6 +33,27 @@
     "options": "",
     "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
     "prev": "0",
+    "context": "host"
+   },
+   "4": {
+    "ref": "glew/2.2.0",
+    "options": "shared=False",
+    "package_id": "876ec6183b0dda30dcb41826d66ad276a23d1ade",
+    "prev": "0",
+    "requires": [
+     "3",
+     "5"
+    ],
+    "context": "host"
+   },
+   "5": {
+    "ref": "glu/system",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "requires": [
+     "3"
+    ],
     "context": "host"
    }
   },

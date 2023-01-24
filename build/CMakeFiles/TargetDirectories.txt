@@ -1,3 +1,3 @@
-D:/Visual Projects/C++/ServerUI/build/CMakeFiles/ALL_BUILD.dir
-D:/Visual Projects/C++/ServerUI/build/CMakeFiles/ZERO_CHECK.dir
-D:/Visual Projects/C++/ServerUI/build/src/CMakeFiles/ServerUI.dir
+D:/Study/softserve/lv-731/ImguiTestProject/build/CMakeFiles/ALL_BUILD.dir
+D:/Study/softserve/lv-731/ImguiTestProject/build/CMakeFiles/ZERO_CHECK.dir
+D:/Study/softserve/lv-731/ImguiTestProject/build/src/CMakeFiles/ServerUI.dir

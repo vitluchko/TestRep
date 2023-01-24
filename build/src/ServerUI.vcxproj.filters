@@ -1,24 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Visual Projects\C++\ServerUI\src\ServerUI.cpp">
+    <ClCompile Include="D:\Study\softserve\lv-731\ImguiTestProject\src\ServerUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\softserve\lv-731\ImguiTestProject\bindings\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Study\softserve\lv-731\ImguiTestProject\bindings\imgui_impl_opengl3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Visual Projects\C++\ServerUI\src\ServerUI.h">
+    <ClInclude Include="D:\Study\softserve\lv-731\ImguiTestProject\src\ServerUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\softserve\lv-731\ImguiTestProject\bindings\imgui_impl_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Study\softserve\lv-731\ImguiTestProject\bindings\imgui_impl_opengl3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Visual Projects\C++\ServerUI\src\CMakeLists.txt" />
+    <CustomBuild Include="D:\Study\softserve\lv-731\ImguiTestProject\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{48830D66-DBF7-3E0E-8E67-CD0450E6E615}</UniqueIdentifier>
+      <UniqueIdentifier>{43DA1A1E-4412-3B0E-8264-1673733B9916}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{A4251190-959B-357E-8B08-FBE6F3FB8958}</UniqueIdentifier>
+      <UniqueIdentifier>{7FBF8E18-B6B8-328D-A945-6A34FA43D954}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

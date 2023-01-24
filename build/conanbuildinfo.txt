@@ -1,33 +1,37 @@
 [includedirs]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/include
-C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/include
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/include
+C:/Users/user/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/include
+C:/Users/user/.conan/data/glew/2.2.0/_/_/package/876ec6183b0dda30dcb41826d66ad276a23d1ade/include
 
 [libdirs]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib
-C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib
+C:/Users/user/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib
+C:/Users/user/.conan/data/glew/2.2.0/_/_/package/876ec6183b0dda30dcb41826d66ad276a23d1ade/lib
 
 [bindirs]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/bin
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/bin
 
 [resdirs]
-
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/res
 
 [builddirs]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/
-C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/
-C:/Users/Nazar/.conan/data/opengl/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/
+C:/Users/user/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/
+C:/Users/user/.conan/data/glu/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+C:/Users/user/.conan/data/opengl/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs]
 imgui
 glfw3
+libglew32
 
 [system_libs]
-imm32
 gdi32
+Glu32
 opengl32
 
 [defines]
-
+GLEW_STATIC
 
 [cppflags]
 
@@ -55,25 +59,25 @@ opengl32
 
 
 [includedirs_imgui]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/include
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/include
 
 [libdirs_imgui]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/lib
 
 [bindirs_imgui]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/bin
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/bin
 
 [resdirs_imgui]
-
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/res
 
 [builddirs_imgui]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b/
 
 [libs_imgui]
 imgui
 
 [system_libs_imgui]
-imm32
+
 
 [defines_imgui]
 
@@ -103,13 +107,13 @@ imm32
 
 
 [rootpath_imgui]
-C:/Users/Nazar/.conan/data/imgui/cci.20220621+1.88.docking/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b
+C:/Users/user/.conan/data/imgui/1.74/_/_/package/5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b
 
 [name_imgui]
 imgui
 
 [version_imgui]
-cci.20220621+1.88.docking
+1.74
 
 [generatornames_imgui]
 
@@ -119,10 +123,10 @@ cci.20220621+1.88.docking
 
 
 [includedirs_glfw]
-C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/include
+C:/Users/user/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/include
 
 [libdirs_glfw]
-C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib
+C:/Users/user/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib
 
 [bindirs_glfw]
 
@@ -131,7 +135,7 @@ C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79
 
 
 [builddirs_glfw]
-C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/
+C:/Users/user/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/
 
 [libs_glfw]
 glfw3
@@ -167,7 +171,7 @@ gdi32
 
 
 [rootpath_glfw]
-C:/Users/Nazar/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61
+C:/Users/user/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61
 
 [name_glfw]
 glfw
@@ -185,6 +189,136 @@ cmake_find_package=glfw3
 cmake_find_package_multi=glfw3
 
 
+[includedirs_glew]
+C:/Users/user/.conan/data/glew/2.2.0/_/_/package/876ec6183b0dda30dcb41826d66ad276a23d1ade/include
+
+[libdirs_glew]
+C:/Users/user/.conan/data/glew/2.2.0/_/_/package/876ec6183b0dda30dcb41826d66ad276a23d1ade/lib
+
+[bindirs_glew]
+
+
+[resdirs_glew]
+
+
+[builddirs_glew]
+
+
+[libs_glew]
+libglew32
+
+[system_libs_glew]
+
+
+[defines_glew]
+GLEW_STATIC
+
+[cppflags_glew]
+
+
+[cxxflags_glew]
+
+
+[cflags_glew]
+
+
+[sharedlinkflags_glew]
+
+
+[exelinkflags_glew]
+
+
+[sysroot_glew]
+
+
+[frameworks_glew]
+
+
+[frameworkdirs_glew]
+
+
+[rootpath_glew]
+C:/Users/user/.conan/data/glew/2.2.0/_/_/package/876ec6183b0dda30dcb41826d66ad276a23d1ade
+
+[name_glew]
+glew
+
+[version_glew]
+2.2.0
+
+[generatornames_glew]
+cmake_find_package=GLEW
+cmake_find_package_multi=GLEW
+
+[generatorfilenames_glew]
+cmake_find_package=GLEW
+cmake_find_package_multi=glew
+
+
+[includedirs_glu]
+
+
+[libdirs_glu]
+
+
+[bindirs_glu]
+
+
+[resdirs_glu]
+
+
+[builddirs_glu]
+C:/Users/user/.conan/data/glu/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+
+[libs_glu]
+
+
+[system_libs_glu]
+Glu32
+
+[defines_glu]
+
+
+[cppflags_glu]
+
+
+[cxxflags_glu]
+
+
+[cflags_glu]
+
+
+[sharedlinkflags_glu]
+
+
+[exelinkflags_glu]
+
+
+[sysroot_glu]
+
+
+[frameworks_glu]
+
+
+[frameworkdirs_glu]
+
+
+[rootpath_glu]
+C:/Users/user/.conan/data/glu/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+
+[name_glu]
+glu
+
+[version_glu]
+system
+
+[generatornames_glu]
+
+
+[generatorfilenames_glu]
+
+
+
 [includedirs_opengl]
 
 
@@ -198,7 +332,7 @@ cmake_find_package_multi=glfw3
 
 
 [builddirs_opengl]
-C:/Users/Nazar/.conan/data/opengl/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
+C:/Users/user/.conan/data/opengl/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/
 
 [libs_opengl]
 
@@ -234,7 +368,7 @@ opengl32
 
 
 [rootpath_opengl]
-C:/Users/Nazar/.conan/data/opengl/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+C:/Users/user/.conan/data/opengl/system/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 [name_opengl]
 opengl
@@ -250,10 +384,14 @@ cmake_find_package=opengl_system
 cmake_find_package_multi=opengl_system
 
 
+[USER_glew]
 [USER_glfw]
+[USER_glu]
 [USER_imgui]
 [USER_opengl]
 [ENV_imgui]
-PATH=["C:\Users\Nazar\.conan\data\imgui\cci.20220621+1.88.docking\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\bin"]
+PATH=["C:\Users\user\.conan\data\imgui\1.74\_\_\package\5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b\bin"]
 [ENV_glfw]
+[ENV_glew]
+[ENV_glu]
 [ENV_opengl]

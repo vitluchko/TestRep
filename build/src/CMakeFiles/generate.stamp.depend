@@ -1,2 +1,24 @@
 # CMake generation dependency list for this directory.
-D:/Visual Projects/C++/ServerUI/src/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.23/Modules/CMakeFindDependencyMacro.cmake
+C:/Users/user/.conan/data/glfw/3.3.8/_/_/package/d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61/lib/cmake/conan-official-glfw-targets.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glew-config-version.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glew-config.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glewTarget-release.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glewTargets.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glfw3-config-version.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glfw3-config.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glfw3Target-release.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glfw3Targets.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glu-config-version.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/glu-config.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/gluTarget-release.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/gluTargets.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/imgui-config-version.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/imgui-config.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/imguiTarget-release.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/imguiTargets.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/opengl_system-config-version.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/opengl_system-config.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/opengl_systemTarget-release.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/build/opengl_systemTargets.cmake
+D:/Study/softserve/lv-731/ImguiTestProject/src/CMakeLists.txt

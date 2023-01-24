@@ -7,8 +7,9 @@
     os=Windows
 
 [requires]
+    glew/2.Y.Z
     glfw/3.Y.Z
-    imgui/cci.20220621
+    imgui/1.Y.Z
 
 [options]
 
@@ -24,11 +25,14 @@
     os_build=Windows
 
 [full_requires]
+    glew/2.2.0:876ec6183b0dda30dcb41826d66ad276a23d1ade
     glfw/3.3.8:d2bbd56c1f653d6cd1a2bcf499dd79bd0a930b61
-    imgui/cci.20220621+1.88.docking:5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b
+    glu/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    imgui/1.74:5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b
     opengl/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
 
 [full_options]
+    glew:shared=False
     glfw:shared=False
     glfw:vulkan_static=False
     imgui:shared=False
