@@ -1,5 +1,11 @@
 ﻿#pragma once
+#include <vector>
+
 #include <iostream>
+#include <ctime>
+
+#include "server/interface/container.h"
+#include "server/interface/router.h"
 
 #include "imgui.h"
 #include "../bindings/imgui_impl_glfw.h"
@@ -7,10 +13,9 @@
 #include <stdio.h>
 #define GL_SILENCE_DEPRECATION
 #if defined(IMGUI_IMPL_OPENGL_ES2)
-#include <GLES2/gl2.h>
 #endif
 #include <GLFW/glfw3.h> // Will drag system OpenGL headers
-
+#include <string>
 
 // [Win32] Our example includes a copy of glfw3.lib pre-compiled with VS2010 to maximize ease of testing and compatibility with old VS compilers.
 // To link with VS2010-era libraries, VS2015+ requires linking with legacy_stdio_definitions.lib, which we do using this pragma.
@@ -127,10 +132,8 @@ public:
 			ImGui_ImplOpenGL3_NewFrame();
 			ImGui_ImplGlfw_NewFrame();
 			ImGui::NewFrame();
-
-
+			
 			Update();
-
 
 			// Rendering
 			ImGui::Render();
@@ -161,29 +164,99 @@ protected:
 class myUI : public UI<myUI>
 {
 public:
-	myUI() = default;
+
+	myUI() { }
 	~myUI() = default;
 
 	void StartUp()
 	{
 	}
+
+	void DrawRowsBackground(int row_count, float line_height, float x1, float x2, float y_offset, ImU32 col_even, ImU32 col_odd)
+	{
+		ImDrawList* draw_list = ImGui::GetWindowDrawList();
+		float y0 = ImGui::GetCursorScreenPos().y + (float)(int)y_offset;
+
+		int row_display_start;
+		int row_display_end;
+		ImGui::CalcListClipping(row_count, line_height, &row_display_start, &row_display_end);
+		for (int row_n = row_display_start; row_n < row_display_end; row_n++)
+		{
+			ImU32 col = (row_n & 1) ? col_odd : col_even;
+			if ((col & IM_COL32_A_MASK) == 0)
+				continue;
+			float y1 = y0 + (line_height * row_n);
+			float y2 = y1 + line_height;
+			draw_list->AddRectFilled(ImVec2(x1, y1), ImVec2(x2, y2), col);
+		}
+	}
+
 	void Update()
 	{
-	ImGui::Begin("Settings");
-		static int counter = 0;
+		ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(ImColor(224, 255, 255)));
+		ImGui::Begin("Settings", 0);
+		ImGui::PopStyleColor();
 
-		if (ImGui::Button("Start server"))                            // Buttons return true when clicked (most widgets return true when edited/activated)
-			counter++;
-		ImGui::SameLine();
-		if (ImGui::Button("Stop server"))                            // Buttons return true when clicked (most widgets return true when edited/activated)
-			counter--;
+		if (isServerRunning) {
+			ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(ImColor(255, 255, 255)));
+			ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(ImColor(0, 255, 0)));
+			ImGui::PushStyleColor(ImGuiCol_ButtonHovered, ImVec4(ImColor(0, 255, 0)));
+			ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4(ImColor(0, 255, 0)));	
+		}
+		else {
+			ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(ImColor(0, 0, 0)));
+			ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(ImColor(255, 0, 0)));
+			ImGui::PushStyleColor(ImGuiCol_ButtonHovered, ImVec4(ImColor(255, 0, 0)));
+			ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4(ImColor(255, 0, 0)));
+		}
 
-		ImGui::Text("counter = %d", counter);
-		ImGui::End();
+		if (ImGui::Button("Run Server")) {
+			isServerRunning = !isServerRunning;
+			now = time(0);
+			dt = ctime(&now);
+			if (isServerRunning) logs.push_back(dt + "The server has started.\n");
+			else logs.push_back(dt + "The server has stopped.\n");
+		}
+		
+		ImGui::PopStyleColor(4);
+
+		ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(ImColor(0, 0, 0)));
+		ImGui::Text("Logs information:");
+		ImGui::PopStyleColor();
+
+		if (ImGui::BeginListBox("Logs information:", ImVec2(200, 150))) {
+			for (int i = 0; i < logs.size(); ++i) {
+				const bool isSelected = (selectedIndex == i);
+				
+				if (ImGui::Selectable(logs[i].c_str(), isSelected)) {
+					selectedIndex = i;
+				}
+				/*float x1 = ImGui::GetWindowContentRegionMin().x;
+				float x2 = ImGui::GetWindowContentRegionMax().x;
+				float item_spacing_y = ImGui::GetStyle().ItemSpacing.y;
+				float item_offset_y = -item_spacing_y * 0.5f;
+				float line_height = ImGui::GetTextLineHeight() + item_spacing_y;
+				DrawRowsBackground(logs.size() - 1, line_height, x1, x2, item_offset_y, 0, ImGui::GetColorU32(ImVec4(0.4f, 0.4f, 0.4f, 0.5f)));*/
+				// Set the initial focus when opening the combo
+				// (scrolling + keyboard navigation focus)
+				if (isSelected) {
+					ImGui::SetItemDefaultFocus();
+				}
+			}
+			ImGui::EndListBox();
+		}
+
 	}
-	
 
-private:
+
+public:
 	bool show_demo_window = true;
 	bool show_another_window = false;
+	bool isServerRunning = false;
+	
+	std::vector<std::string> logs;
+	int selectedIndex = 0;
+
+	time_t now;
+	std::string dt;
 };

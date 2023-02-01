@@ -60,5 +60,3 @@ bin/*
 *.vsix
 
 RunRebuild.sh
-
-bindings/
